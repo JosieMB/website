@@ -9,12 +9,20 @@ sidebar: none
 
 <div class="content-slideshow">
   <div class="content-slideshow-container">
-    <div class="content-slide active" style="background-image: url(/assets/images/website_pic_1.png)"></div>
-    <div class="content-slide" style="background-image: url(/assets/images/website_pic_2png.png)"></div>
-    <div class="content-slide" style="background-image: url(/assets/images/website_pic_3png.png)"></div>
-    <div class="content-slide" style="background-image: url(/assets/images/website_pic_4.png)"></div>
+    <div class="content-slide active"
+         style="background-image: url('{{ '/assets/images/website_pic_1.png' | relative_url }}')"></div>
+
+    <div class="content-slide"
+         style="background-image: url('{{ '/assets/images/website_pic_2png.png' | relative_url }}')"></div>
+
+    <div class="content-slide"
+         style="background-image: url('{{ '/assets/images/website_pic_3png.png' | relative_url }}')"></div>
+
+    <div class="content-slide"
+         style="background-image: url('{{ '/assets/images/website_pic_4.png' | relative_url }}')"></div>
   </div>
 </div>
+
 
 <style>
   .content-slideshow {
