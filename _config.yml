@@ -237,7 +237,7 @@ defaults:
 #   label: "utterances comment"
 #   theme: "github-light"
 #   follow_site_theme: true
-nav_enabled: false
+
 # Build settings
 # highlighter: none
 markdown: kramdown
