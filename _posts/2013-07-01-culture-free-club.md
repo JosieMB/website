@@ -9,9 +9,9 @@ pmid: '23748338'
 pmc: ''
 url: http://europepmc.org/abstract/med/23748338
 tags:
-- publication
+- Publication
 categories:
-- publication
+- Publication
 ---
 
 *Published in*: 

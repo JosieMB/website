@@ -10,9 +10,9 @@ pmid: '23446317'
 pmc: PMC3599118
 url: http://europepmc.org/abstract/med/23446317
 tags:
-- publication
+- Publication
 categories:
-- publication
+- Publication
 ---
 
 *Published in*: 

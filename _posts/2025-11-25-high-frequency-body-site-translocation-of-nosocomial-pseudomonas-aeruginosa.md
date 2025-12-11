@@ -9,9 +9,9 @@ pmid: ''
 pmc: ''
 url: https://doi.org/10.1038/s41467-025-66088-x
 tags:
-- publication
+- Publication
 categories:
-- publication
+- Publication
 ---
 
 *Published in*: Nature Communications

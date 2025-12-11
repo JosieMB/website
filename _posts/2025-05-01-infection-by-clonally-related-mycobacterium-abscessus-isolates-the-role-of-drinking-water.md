@@ -10,9 +10,9 @@ pmid: ''
 pmc: ''
 url: https://doi.org/10.1164/rccm.202409-1824OC
 tags:
-- publication
+- Publication
 categories:
-- publication
+- Publication
 ---
 
 *Published in*: American Journal of Respiratory and Critical Care Medicine

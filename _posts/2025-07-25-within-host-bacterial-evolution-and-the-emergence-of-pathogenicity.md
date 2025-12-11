@@ -9,9 +9,9 @@ pmid: ''
 pmc: ''
 url: https://doi.org/10.1038/s41564-025-02036-1
 tags:
-- publication
+- Publication
 categories:
-- publication
+- Publication
 ---
 
 *Published in*: Nature Microbiology

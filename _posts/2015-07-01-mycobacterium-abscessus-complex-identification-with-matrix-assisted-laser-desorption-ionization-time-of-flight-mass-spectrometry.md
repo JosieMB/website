@@ -10,9 +10,9 @@ pmid: ''
 pmc: ''
 url: https://doi.org/10.1128/JCM.00494-15
 tags:
-- publication
+- Publication
 categories:
-- publication
+- Publication
 ---
 
 *Published in*: Journal of Clinical Microbiology
