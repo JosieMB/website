@@ -1,6 +1,45 @@
-{% comment %}
-  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
+<style>
+  /* --- GLOBAL BANNER FIXES --- */
 
-  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
-  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
-{% endcomment %}
+  /* Always force the banner to a reasonable height */
+  html .page-banner {
+    height: 220px !important;
+    min-height: 220px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Fix the inner <div> background-image element */
+  .page-banner .page-banner-img > div {
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Fix <img> fallback placeholder */
+  .page-banner .img-placeholder {
+    height: 220px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    display: block;
+  }
+
+  /* Subtle overlay on top of the image */
+  .page-banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.12);
+    pointer-events: none;
+  }
+
+  /* Keep page title LEFT aligned */
+  .page-banner-heading,
+  .page-banner-subheading {
+    text-align: left !important;
+  }
+</style>
